@@ -1,0 +1,44 @@
+Q1:
+void main() {
+  int length = 5;
+  int breadth = 7;
+  int area = length * breadth;
+  print("Area=$area");
+}
+
+Q2:
+void main() {
+  int num = 7;
+  num = num + 8;
+  num = num ~/ 3;
+  num = num % 5;
+  num = num * 5;
+  int i = num;
+  print("Answer: $i");
+}
+
+Q3:
+void main() {
+ int a = 5;
+ int b = 6;
+  
+ print(a<50 && a<b); 
+ print(a<50 || a<b); 
+}
+
+Q4:
+
+void main() {
+String name = "Robert";
+int english = 78;
+int math = 45;
+int physics = 62;
+int totalmarks = english+math+physics;
+double percentage= ((totalmarks/300)*100);
+print("Name: $name");
+print("English: $english");
+print("Maths: $math");
+print("Physics: $physics");
+print("Total Marks: $totalmarks");
+print("Percentage: $percentage");
+}
